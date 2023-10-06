@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acutime packers and movers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            color: black;
+        }
+
+        #hero div {
+            max-height: 60vh;
+        }
+
+        #hero img {
+            max-height: 60vh;
+            object-fit: cover;
+        }
+
+        #about {
+            margin-top: 10rem;
+            margin-bottom: 10rem;
+            max-height: 90vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        #card img {
+            height: 25rem;
+            object-fit: cover;
+            object-position: top;
+            position: relative;
+        }
+
+        .myCard {
+            height: 100%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            padding: 20px 100px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.459);
+            color: white;
+        }
+
+        .myCard .myHeading h2 {
+            color: #ffffff;
+        }
+
+        .myCard .myCardButton {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+
+        .myCard .myCardButton button {
+            padding: 15px 25px;
+            border: 0px;
+            border-radius: 50px;
+        }
+
+        #card {
+            margin: 6rem 0;
+        }
+
+        #gallery img {
+            height: 35rem;
+            object-fit: cover;
+        }
+
+        #services {
+            margin-top: 15rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        /* #images{
+            display: flex;
+            justify-content: center;
+            margin-top: 10rem;
+            margin-bottom: 10rem;
+        } */
+        /* #images > div{
+            height: 20rem;
+        }
+        #images img{
+            height: 20rem;
+        } */
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="px-3">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="logo" height="100px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Home Shifting</a></li>
+                                    <li><a class="dropdown-item" href="#">Office Shifting</a></li>
+                                    <li><a class="dropdown-item" href="#">Car/Bike Transpotation</a></li>
+                                    <li><a class="dropdown-item" href="#">Domestic Relocation</a></li>
+                                    <li><a class="dropdown-item" href="#">International Relocation</a></li>
+                                    <li><a class="dropdown-item" href="#">Warehouse Relocation</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contect</a>
+                            </li>
+                            <li class="nav-item"><button
+                                    class="btn btn-primary rounded-pill ms-1 px-3 py-2">Google&nbsp;Review</button>
+                            </li>
+                            <li class="nav-item"><button
+                                    class="btn btn-primary rounded-pill ms-1 px-3 py-2">Call&nbsp;Us</button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div id="hero">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img src="/assets/carousel-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/carousel-2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/carousel-3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            <button class="btn btn-primary">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="">
+                            <div class="card-body">
+                                <h1 class="card-title">About us</h1>
+                                <h3 class="card-text my-5">We can be a great choice for you</h3>
+                                <p class="card-text lh-lg">We can be a great choice for you. We proudly introduce
+                                    ourselves as one of the most reliable and trustworthy packers and movers. We can
+                                    handle any difficult job and complete the job efficiently to provide maximum
+                                    customer satisfaction. We are the trusted, reliable, efficient, affordable, and
+                                    trustworthy packers who will safely pack and move. Do you want movers and packers in
+                                    Rajkot? We are always there to assist you.</p>
+                                <hr style="margin-top: 3rem;">
+                                <a href="#" class="btn btn-primary rounded-pill px-4 py-2">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div>
+                            <div class="d-flex justify-content-end">
+                                <div class="rounded-start-pill" style="overflow: hidden;">
+                                    <img src="/assets/about.jpg" alt="about" height="250px" class=" rounded-end-4 ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="card">
+
+                    <div class="card text-bg-dark">
+                        <img src="/assets/Banner.jpg" class="card-img" alt="">
+                        <div class="myCard ">
+                            <div class="myCardHeading">
+                                <h2 class="text-light">Trusted, reliable, efficient, with </h2>
+                                <h2 class="text-light">Acutime Packers & Movers</h2>
+                                <p class="text-light">Acutime Packers &amp; Movers Provides best Packers &amp; Movers
+                                    services.
+                                    You can call us for any inquiry.</p>
+                            </div>
+                            <div class="myCardButton">
+                                <button>HIRE US NOW</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gallery" class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/6.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/7.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/assets/8.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div id="services" class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/home.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Domestic Relocatin</h4>
+                    <p class="card-text">Acutime Packers &amp; Movers excels in house relocations, offering
+                        comprehensive services including packing, loading, transportation, unloading, and unpacking. Our
+                        top priority is ensuring the safe and secure transfer of your belongings. We use premium packing
+                        materials customized for each relocation.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/Office.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Office Shifting</h4>
+                    <p class="card-text">In the moving industry, corporate relocation is a complicated process. It
+                        necessitates the skillful handling of expensive items. Our group is knowledgeable about pressing
+                        and moving sensitive corporate effects utilizing legitimate materials. We prioritize precision
+                        and care in loading and unloading.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/car.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Vehicle Transportation</h4>
+                    <p class="card-text">Acutime Packers and Movers” gives simple and advantageous vehicle moving
+                        administrations in India. Our specialized vehicles are equipped with the expertise to meet your
+                        vehicle transportation needs. We prioritize the safety and security of your vehicle and offer
+                        insurance options.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/ware.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Warehouse Relocation</h4>
+                    <p class="card-text">Acutime Packers &amp; Movers excels in Warehouse relocations, offering
+                        comprehensive services including packing, loading, transportation, unloading, and unpacking. Our
+                        top priority is ensuring the safe and secure transfer of your belongings. We use premium packing
+                        materials customized for each relocation.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/pet.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Pet Shifting</h4>
+                    <p class="card-text">
+                        Pet Shifting is a complicated process. It necessitates the skillful handling of your Pets. Our
+                        Team is well trained &amp; Highly knowledgeable With the Biggest network in Pan-India, Our
+                        service ensure you don’t have to plan for anything. From rabies titer testing, microchips, and
+                        pet crates to door-to-door domestic and international relocations.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/int.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="card-title">Internation Relocation</h4>
+                    <p class="card-text">Acutime Packers &amp; Movers excels in International relocations, offering
+                        comprehensive services including packing, loading, transportation, unloading, and unpacking. Our
+                        top priority is ensuring the safe and secure transfer of your belongings. We use premium packing
+                        materials customized for each relocation.</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="images" class="container">
+
+            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/assets/home.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
